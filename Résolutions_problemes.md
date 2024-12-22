@@ -1,4 +1,4 @@
-# Dépannage et Astuces pour l'Installation de FOG
+# Dépannage et Astuces 
 
 ### **Problème Rencontré**  
 FOG repose sur un serveur DHCP pour attribuer des adresses IP aux machines clientes et leur fournir les informations nécessaires pour communiquer avec le serveur FOG et charger le fichier de démarrage PXE. Si le serveur DHCP n’est pas correctement configuré, les machines clientes ne pourront pas démarrer via le réseau. Ce problème survient souvent en raison de l’absence des options spécifiques dans la configuration du serveur DHCP ou tout simplement d'une mauvaise configuration.
