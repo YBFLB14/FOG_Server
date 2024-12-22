@@ -89,12 +89,9 @@ Cela va lancer l'enregistrement en vous posant plusieurs questions notamment le 
 
 Et la dernière question va vous permettre de lancer le déploiement de l'OS immédiatement. après cela plus qu'à patienter ! 
 
-
 ## Etape 5 : Démonstration complète de déploiement d'OS
 
-Voici une démonstration complète d'un déploiement d'OS que j'ai pu réaliser.
-
-...
+Voici une démonstration vidéo du déploiement d'une image sur une machine : [Déploiement d'un OS avec PXE](https://youtu.be/eOzP9_6v5m0)
 
 
 
