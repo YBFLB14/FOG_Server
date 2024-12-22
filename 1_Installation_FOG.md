@@ -164,6 +164,6 @@ Ouvrez votre navigateur et avec l’URL fournie. Une page d’accueil s’affich
 
 ### Etape 8 : Finalisation de l'installation de FOG
 
-Une fois terminé, retournez dans le terminal. Appuyez sur **Entrée** dans le terminal pour que les services soit activés et démarrés automatiquement. Cette étape est également essentielle pour pouvoir obtenir le menu de démarrage dont nous reparlerons par la suite. 
+Une fois terminé, retourner dans le terminal. Appuyez sur **Entrée** dans le terminal pour que les services soit activés et démarrés automatiquement. Cette étape est également essentielle pour pouvoir obtenir le menu de démarrage dont nous reparlerons par la suite. 
 
 
