@@ -16,7 +16,7 @@ Ce projet détaille l'installation et la configuration de **FOG**, une solution 
 ## **Fonctionnalités principales**
 - **Déploiement centralisé** : Installation rapide via le réseau.
 - **Capture d’images systèmes** : Sauvegarde de configurations existantes.
-- **Support BIOS et UEFI** : Compatibilité large avec divers matériels.
+- **Support BIOS et UEFI** : Compatibilité avec divers système.
 - **Inventaire matériel** : Suivi des configurations matérielles des clients.
 
 
