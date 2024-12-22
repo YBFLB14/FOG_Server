@@ -32,7 +32,7 @@ Installer git sur votre machine pour pouvoir ensuite cloner le dépôt git de FO
 ```bash
 sudo apt install git
 ```
-![alt text](img/install_git.png)
+![alt text](img/1_Installation_fog/install_git.png)
 
 
 ## Étape 3 : Cloner le dépôt FOG 
@@ -44,7 +44,7 @@ Cloner les fichiers à partir du dépôt officiel de FOG pour obtenir les dernie
 cd /root
 git clone https://github.com/FOGProject/fogproject.git
 ```
-![alt text](img/lancement_install.png)
+![alt text](img/1_Installation_fog/lancement_install.png)
 
 ## Étape 4 : Lancement de l'installation
 
@@ -56,7 +56,7 @@ Maintenant, lancer l'installation :
 cd fogproject/bin
 ./install.sh
 ```
-![](img/clone_git.png)
+![](img/1_Installation_fog/clone_git.png)
 
 
 ## Étape 5 : Personnalisation du serveur FOG avant installation 
@@ -65,7 +65,7 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 
 ### **1. Version de Linux**
 
-![alt text](/img/OS_question.png)
+![alt text](/img/1_Installation_fog/OS_question.png)
 
 - **Réponse** : 2
 - **Description** : Cette question demande de spécifier la distribution Linux sur laquelle FOG sera installé. 
@@ -74,7 +74,7 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 
 ### 2. **Type d'installation**
 
-![alt text](img/type_install_question.png)
+![alt text](img/1_Installation_fog/type_install_question.png)
 
 - **Réponse** : N
 - **Explication** :  Cette question vous demande de choisir le mode d'installation pour le serveur FOG. Il existe deux options principales :
@@ -86,7 +86,7 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 
 ### 3. **Interface réseau par défaut**
 
-![alt text](img/interface_reseau.png)
+![alt text](img/1_Installation_fog/interface_reseau.png)
 
 - **Réponse** : Y / ens37 (réseau local)
 - **Explication** : Le script détecte les interfaces réseau disponibles sur votre système et vous demande si vous souhaitez changer l'interface par défaut utilisée pour la communication avec le serveur FOG. Par exemple, dans ce cas, l'interface `ens33` est utilisée par défaut.
@@ -96,7 +96,7 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 
 
 ### 4. **Serveur DHCP**
-![alt text](img/dhcp.png)
+![alt text](img/1_Installation_fog/dhcp.png)
 
 **Adresse du routeur**
 ---
@@ -120,28 +120,28 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 
 ### 5. **Packs de langues supplémentaires**
 
-![alt text](img/langage.png)
+![alt text](img/1_Installation_fog/langage.png)
 
 - **Réponse** : N
 - **Explication** : Cette question vous propose d'installer des packs de langues supplémentaires pour FOG. Si vous n'en avez pas besoin, tapez `N`.
 
 ### 6. **HTTPS pour le serveur FOG**
 
-![alt text](img/https.png)
+![alt text](img/1_Installation_fog/https.png)
 
 - **Réponse** : Y
 - **Explication** : Cette question vous demande si vous souhaitez activer HTTPS pour sécuriser l'accès au serveur FOG. 
 
 ### 7. **Nom du serveur**
 
-![alt text](img/name_server.png)
+![alt text](img/1_Installation_fog/name_server.png)
 
 - **Réponse** : Y
 - **Explication** : cette question vous sert à si vous le souhaitez changer le nom du serveur. Si vous êtes satisfait du nom par défaut, tapez `N`.
 
 ### 8. **Accepter l'envoi d'informations anonymes**
 
-![alt text](img/envoie_donnees.png)
+![alt text](img/1_Installation_fog/envoie_donnees.png)
 
 - **Réponse** : N
 - **Explication** : FOG vous demande si vous êtes d'accord pour envoyer des informations anonymes à des fins d'amélioration du logiciel. Tapez `N` si vous préférez ne pas envoyer d'informations.
@@ -150,7 +150,7 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 
 Avant de passer à la configuration finale, le script affiche un récapitulatif des paramètres sélectionnés.
 
-![alt text](img/recap.png)
+![alt text](img/1_Installation_fog/recap.png)
 
 Prenez un moment pour vérifier que toutes ces informations correspondent bien à votre environnement réseau. Une fois validées, le script continue automatiquement.
 
@@ -158,7 +158,7 @@ Prenez un moment pour vérifier que toutes ces informations correspondent bien �
 
 Une fois les questions de configuration terminées, le script lance l’installation des services essentiels comme Apache, MySQL. À la fin, une URL est affichée :
 
-![alt text](<img/update _database.png>)
+![alt text](<img/1_Installation_fog/update _database.png>)
 
 Ouvrez votre navigateur et avec l’URL fournie. Une page d’accueil s’affiche vous invitant à cliquer sur **"Install/Update Now"**.Cette action met à jour  la base de données MySQL en créant les tables nécessaires.
 
