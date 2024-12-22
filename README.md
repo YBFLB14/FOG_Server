@@ -30,6 +30,6 @@ Ce projet détaille l'installation et la configuration de **FOG**, une solution 
 
 
 ## **Utilisation**
-1. Installez et configurez FOG en suivant la documentation officielle.
-2. Configurez les machines pour démarrer via PXE.
-3. Capturez ou déployez les images selon vos besoins.
+1. [Installez FOG](https://github.com/YBFLB14/FOG_Server/blob/95cb7a7c084b2699fa6734ddda357c26e9d1f027/1_Installation_FOG.md)
+3. [Déployer des OS](https://github.com/YBFLB14/FOG_Server/blob/95cb7a7c084b2699fa6734ddda357c26e9d1f027/2_Deploiement_OS.md)
+4. Capturez ou déployez les images selon vos besoins.
