@@ -29,7 +29,7 @@ Ce projet détaille l'installation et la configuration de **FOG**, une solution 
 
 
 
-### **Utilisation**
+## **Utilisation**
 1. Installez et configurez FOG en suivant la documentation officielle.
 2. Configurez les machines pour démarrer via PXE.
 3. Capturez ou déployez les images selon vos besoins.
