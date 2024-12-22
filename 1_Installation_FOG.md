@@ -98,21 +98,21 @@ Lors de l'installation de **FOG**, plusieurs questions seront posées, il faudra
 ### 4. **Serveur DHCP**
 ![alt text](img/1_Installation_fog/dhcp.png)
 
-####**Adresse du routeur**
+#### **Adresse du routeur**
 ---
 - **Question** : "Would you like to setup a router address for the DHCP server ?"
 - **Réponse** : N
 - **Explication** : Si la machine hébergeant votre serveur FOG ne dispose pas d'un accès internet, il faut lui donner la route par défaut à rejoindre pour l'accès internet. Dans notre cas, notre machine dispose déjà d'une carte réseau en mode NAT pour l'accès internet.
 
 
-####**Serveur DNS**
+#### **Serveur DNS**
 -------
 - **Question** : "Would you like DHCP to handle DNS ?"
 - **Réponse** : N
 - **Explication** : Cette question demande si le serveur DHCP gérera également le DNS. Si vous préférez spécifier un serveur DNS séparé, tapez `N`. Sinon, tapez `Y`.
 
 
-####**Serveur DHCP**
+#### **Serveur DHCP**
 ------
 - **Question** : "Would you like to use the FOG server for DHCP service ?"
 - **Réponse** : N
