@@ -29,7 +29,7 @@ Une fois qu'une machine cliente est enregistrée dans l'interface de gestion de 
    L'échec de capture peut également survenir si le mot de passe associé à l'utilisateur FOG a été modifié dans certains endroits, mais pas dans d'autres. Cette incohérence peut provoquer des erreurs d'authentification, empêchant la tâche de capture de s'exécuter correctement. 
 
 
-###**Solution** :
+###**Solutions** :
 
 - **Pour le problème d'absence de ressources** :   
   * Vérifiez que le serveur FOG dispose d'une quantité suffisante de mémoire vive (RAM) pour gérer les opérations de capture et de stockage. Un manque de mémoire peut entraîner des blocages ou des ralentissements.  
@@ -46,7 +46,7 @@ Une fois qu'une machine cliente est enregistrée dans l'interface de gestion de 
 ### **Problème Rencontré**  
 Lors de l’installation de FOG, après la copie des fichiers sur le serveur, il est demandé d’accéder à l’interface web pour configurer les paramètres initiaux. Cependant, si vous ne retournez pas dans le terminal pour valider l’installation, le serveur reste dans un état incomplet. Cela entraîne plusieurs dysfonctionnements, notamment l’absence de compilation des fichiers nécessaires au bon fonctionnement du serveur et l’incapacité des machines clientes à charger le menu PXE, bloquant ainsi les processus de capture et de déploiement.
 
-### **Solution**  
+### **Solutions**  
 Pour résoudre ce problème, après avoir effectué les configurations requises dans l’interface web, il est impératif de retourner au terminal où l’installation avait commencé. Une fois dans le terminal, appuyez sur « Entrée » pour finaliser le processus. Cette action déclenche la compilation des fichiers essentiels et active les services requis pour le bon fonctionnement de FOG. Enfin, il est recommandé de tester l'accès au menu PXE depuis une machine cliente pour s'assurer que l'installation est complète et opérationnelle.
 
 ---
@@ -55,14 +55,14 @@ Pour résoudre ce problème, après avoir effectué les configurations requises 
 
 Pendant l’installation ou l’utilisation de FOG, vous pouvez rencontrer des problèmes tels que des erreurs techniques, des configurations incorrectes, des ressources insuffisantes... Sans une méthode claire pour les identifier et les corriger, ces soucis peuvent rendre l’utilisation de FOG compliquée.
 
-### **Solutions Recommandées**  
+### **Solutions**  
 1. **Vérifiez les journaux et messages d’erreur** :  
    Regardez les journaux du serveur FOG et les messages affichés sur les machines clientes. Ces informations vous aident à comprendre ce qui ne fonctionne pas et où se trouve le problème.  
 
 2. **Cherchez dans la communauté et la documentation officielles** :  
    La communauté FOG et les forums sont pleins de conseils et de solutions pour des problèmes similaires. Si vous ne trouvez pas de réponse, posez vos questions ou consultez les guides disponibles.  
 
-3. **Testez avant la production** :  
+3. **Testez avant de l'intégrer dans l'environnement de production** :  
    Avant de déployer FOG sur votre réseau principal, faites des essais dans un environnement de test. Cela permet de vérifier que tout fonctionne bien sans risquer de perturber vos machines en production.  
 
 4. **Gardez une documentation** :  
