@@ -21,7 +21,7 @@ Créez ou modifiez le fichier de configuration :
 sudo nano /etc/dnsmasq.conf
 ```
 
-Vous pouvez retrouver un exemple de configuration ici.
+Vous pouvez retrouver un exemple de configuration [ici](https://github.com/YBFLB14/FOG_Server/blob/35ada1b53ab4f9257d2b3d775d03e2a2d5c423ac/2_ProxyDHCP_Setup/dnsmasq.conf).
 
 **Explication de chaque option**
 
