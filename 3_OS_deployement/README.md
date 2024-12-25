@@ -7,7 +7,7 @@ Le déploiement d’un système d’exploitation avec FOG suit un processus stru
 
 Pour enregistrer une machine, nous allons  modifier les paramètres du BIOS pour qu'il démarre à partir du réseau : 
 
-![alt text](img/2_deploiement_OS/config_bios.png)
+![alt text](img/config_bios.png)
 
 On place l'option "Network boot from Intel E1000" en haut de la liste et on sauvegarde.
 
@@ -17,7 +17,7 @@ Configuré en mode DHCP, la machine va envoyé des requêtes nommé "DHCP discov
 - le serveur DHCP qui va lui fournir une configuration réseau
 - le proxyDHCP qui va lui fournir l'adresse IP du serveur FOG
 
-![alt text](img/2_deploiement_OS/dhcp_attribution.png)
+![alt text](img/dhcp_attribution.png)
 
 ## Etape 2 : Enregistrement de la machine Master
 
@@ -27,11 +27,11 @@ Une fois que la machine a réussi à joindre les serveurs DHCP et obtenu toutes 
 
 Nous allons choisir "Quick registration and inventory" pour pouvoir enregistrer rapidement la machine cliente dans le serveur FOG avec un inventaire matériel minimal. 
 
-![alt text](img/2_deploiement_OS/enregistrement_rapide.png)
+![alt text](img/enregistrement_rapide.png)
 
 Une fois l'enregistrement terminé, la machine apparait dans la liste des hôtes sur le serveur FOG.
 
-![alt text](img/2_deploiement_OS/host.png)
+![alt text](img/host.png)
 
 ## Etape 3 : Capture d'un OS
 
@@ -41,13 +41,13 @@ a.) Création d'une image
 
 Créer une image sur le serveur comme sur l'illustration ci-dessous.
 
-![alt text](img/2_deploiement_OS/creation_image.png)
+![alt text](img/creation_image.png)
 
 b.) Association dde l'image à la machine master
 
 Associer cette image à la machine master dont vous souhaiter capturer l'OS. Ici le master est sous Debian 12.
 
-![alt text](img/2_deploiement_OS/association_image.png)
+![alt text](img/association_image.png)
 
 c.) Planifier une tâche pour capturer l'OS
 
@@ -55,11 +55,11 @@ Pour capturer l'OS vous devez créer une tâche qui va lancer à distance la cap
 
 Dans le menu de l'**host master**, rendez-vous dans le menu "Basic Tasks" > Capture. 
 
-![alt text](img/2_deploiement_OS/Capture_imge.png)
+![alt text](img/Capture_imge.png)
 
 Lancer la tâche imédiatement. A noter qu'il y a plusieurs options séléctionnables pour la tâche planifié comme éteindre la machine après l'éxécution de la tâche... mais je vous laisserais découvrir ces options par vous-mêmes.
 
-![alt text](img/2_deploiement_OS/task_scheduled.png)
+![alt text](img/task_scheduled.png)
 
 Dans le menu des tâches en cours , on voit notre tâche progresser 
 
@@ -67,13 +67,13 @@ Dans le menu des tâches en cours , on voit notre tâche progresser
 
 Et si l'on se rend sur notre machine master, on voit ceci : 
 
-![alt text](img/2_deploiement_OS/master_progression_capture.png)
+![alt text](img/master_progression_capture.png)
 
 c.) Vérifier que l'OS a bien été capturé
 
 Une fois la tâche terminé,vous pouvez voir les informations sur la dernière capture effectué pour cette image comme la taille de celle-ci,...
 
-![alt text](img/2_deploiement_OS/etat_image_capture.png)
+![alt text](img/etat_image_capture.png)
 
 ## Etape 4 : Déploiement rapide d'un OS
 
@@ -85,7 +85,7 @@ Une fois cela fait, nous allons cette fois réaliser un enregistrement complet d
 
 Cela va lancer l'enregistrement en vous posant plusieurs questions notamment le nom par lequel il sera nommé sur le serveur FOG, l'image que vous souhaitez lui associer...
 
-![alt text](img/2_deploiement_OS/enregistrement_full.png)
+![alt text](img/enregistrement_full.png)
 
 Et la dernière question va vous permettre de lancer le déploiement de l'OS immédiatement. après cela plus qu'à patienter ! 
 
