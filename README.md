@@ -33,3 +33,4 @@ Ce projet détaille l'installation et la configuration de **FOG**, une solution 
 1. [Installez FOG](https://github.com/YBFLB14/FOG_Server/tree/08c191c96133f36669a69ae2309faa0c13fa1b26/1_Installation_FOG)
 2. [Configuration du ProxyDHCP](https://github.com/YBFLB14/FOG_Server/tree/08c191c96133f36669a69ae2309faa0c13fa1b26/2_ProxyDHCP_Setup)
 3. [Déployer des OS](https://github.com/YBFLB14/FOG_Server/tree/08c191c96133f36669a69ae2309faa0c13fa1b26/3_OS_deployement)
+4. [Troubleshooting](https://github.com/YBFLB14/FOG_Server/tree/3979498302e514cb22a64c29797aee5022bde1c5/4.Troubleshooting)
