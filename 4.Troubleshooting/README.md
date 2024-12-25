@@ -11,7 +11,7 @@ FOG repose sur un serveur DHCP pour attribuer des adresses IP aux machines clien
    - **Option 67** : Indiquez le chemin du fichier PXE (par exemple, `undionly.kpxe` ou `ipxe.efi` selon votre environnement).  
   
 
-2. **Utilisation d’un ProxyDHCP** :  
+2. **Utilisation d’un ProxyDHCP** ([voir configuration](https://github.com/YBFLB14/FOG_Server/tree/3c08cbfa4ff6185e7dedae82b5e0e28405874ce3/2_ProxyDHCP_Setup) :  
    Si vous ne pouvez pas modifier le serveur DHCP principal (par exemple, dans un réseau d’entreprise où il est géré par une autre équipe), configurez un ProxyDHCP sur la machine hébergeant FOG. Ce service agit comme un relais, fournissant uniquement les informations PXE  nécessaires aux machines clientes, sans affecter les autres fonctionnalités DHCP du réseau.  
 
 ---
