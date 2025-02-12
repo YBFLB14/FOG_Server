@@ -56,7 +56,7 @@ Maintenant, lancer l'installation :
 cd fogproject/bin
 ./install.sh
 ```
-![](img/clone_git.png)
+![alt text](img/clone_git.png)
 
 
 ## Étape 5 : Personnalisation du serveur FOG avant installation 
