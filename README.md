@@ -20,15 +20,6 @@ Ce projet détaille l'installation et la configuration de **FOG**, une solution 
 - **Inventaire matériel** : Suivi des configurations matérielles des clients.
 
 
-
-## **Technologies**
-- **FOG** : Gestion des déploiements.
-- **MySQL** : Stockage des données (machines, tâches).
-- **Apache** : Interface web.
-- **TFTP, NFS** : Transferts de fichiers et partage des images.
-
-
-
 ## **Utilisation**
 1. [Installation de FOG](https://github.com/YBFLB14/FOG_Server/tree/08c191c96133f36669a69ae2309faa0c13fa1b26/1_Installation_FOG)
 2. [Configuration du ProxyDHCP](https://github.com/YBFLB14/FOG_Server/tree/08c191c96133f36669a69ae2309faa0c13fa1b26/2_ProxyDHCP_Setup)
